@@ -4,6 +4,7 @@ function ListItem(props) {
 
   return (
     <div>
+
       <ul>
       {props.listItem.map((item, i) => (
         <li key={i}>
@@ -13,12 +14,14 @@ function ListItem(props) {
         </li>
       ))}
       </ul>
-      <h1>Done List:</h1>
+      <h2>Done List:</h2>
+      <ul>
       {props.done.map((item, i) => (
-        <li key={i}>
+        <li key={i} style={{textDecoration: 'line-through'}}>
           {item}
         </li>
       ))}
+      </ul>
     </div>
   );
 }
