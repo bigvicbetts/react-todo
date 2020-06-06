@@ -1,0 +1,21 @@
+.App {
+  width: 40 rem;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  display: block;
+  width: 50rem;
+  list-style-type: none;
+  line-height: 2.25rem;
+  background-color: aqua;
+}
+
+button {
+  margin: 0 1rem;
+  border-radius: 50%%;
+}
